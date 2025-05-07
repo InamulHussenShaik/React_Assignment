@@ -9,9 +9,9 @@
     }
   ],
   "compilerOptions": {
-    "baseUrl": ".",
+    "baseUrl": "./src",  // Set baseUrl to ./src to resolve paths correctly
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"]  // Ensure alias @ resolves to ./src
     }
   }
 }
